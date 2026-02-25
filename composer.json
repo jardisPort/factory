@@ -1,0 +1,39 @@
+{
+    "name": "jardisport/factory",
+    "version": "1.0.0",
+    "description": "This package provides a factory interfaces for a domain driven design approach",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Core Development",
+            "email": "jardisCore@headgent.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\Factory\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/factory",
+    "support": {
+        "issues": "https://github.com/jardisPort/factory/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "factory",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
